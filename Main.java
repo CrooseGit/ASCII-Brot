@@ -1,4 +1,4 @@
-class Main {
+public class Main {
     public static void main(String[] args) {
         updateSet();
     }
@@ -7,11 +7,11 @@ class Main {
         double maxXval = 2.0; 
         double minYval = -2.0;
         double maxYval = 2.0;
-        String cR = "\u001b[31m[ ]";
-        String cG = "\u001b[32m[ ]";
-        String cB = "\u001b[30m[ ]";
-		
-        int maxIterations = 1000;
+        String cR = "\u001b[31m@@";
+        String cG = "\u001b[32m@@";
+        String cB = "\u001b[30m@@";
+
+        int maxIterations = 50;
         int width = 200;
         int height = 200;
         for (int y = 0; y < width; y++) {
